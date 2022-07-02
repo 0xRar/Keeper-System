@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register - Keeper</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/css/pure-min.css" />
+ </head>
+ <body>
+  <div class="pure-menu pure-menu-horizontal">
+   <a href="index.html" class="pure-menu-heading pure-menu-link">Keeper &#128274 &#127776</a>
+   <ul class="pure-menu-list">
+    <li class="pure-menu-item">
+     <a href="index.html" class="pure-menu-link">Home</a>
+    </li>
+    <li class="pure-menu-item">
+     <a href="register.html" class="pure-menu-link">Register</a>
+    </li>
+    <li class="pure-menu-item">
+     <a href="login.html" class="pure-menu-link">Login</a>
+    </li>
+    <li class="pure-menu-item">
+     <a href="upload.html" class="pure-menu-link upload">Upload to Keeper</a>
+    </li>
+   </ul>
+  </div>
+
+  <div class="container">
+   <div class="content-container">
+    <form action="" method="POST" class="pure-form pure-form-stacked" autocomplete="off">
+     <fieldset>
+      <legend>Register</legend>
+      <p>fill in this form to create an account</p>
+      <br />
+      <b><label for="aligned-name">Username</label></b>
+      <input type="text" id="aligned-name" placeholder="Username" name="uname" required/>
+      <span class="pure-form-message">This is a required field.</span>
+
+      <b><label for="stacked-password">Password</label></b>
+      <input type="password" id="stacked-password" placeholder="Password" name="pass" required/>
+      <span class="pure-form-message">This is a required field.</span>
+
+      <b><label for="repeat-password">Repeat Password</label></b>
+      <input type="password" id="repeat-password" placeholder="Repeat Password" name="repeat-pass" required/>
+      <span class="pure-form-message">This is a required field.</span>
+
+      <button type="submit" class="pure-button pure-button-primary">Register</button>
+      <button onclick="window.location.href='https://youtu.be/dQw4w9WgXcQ';"
+      type="submit" id="redir" class="pure-button pure-button-primary">Have an account?</button>
+     </fieldset>
+    </form>
+   </div>
+  </div>
+  <script src="/assets/js/script.js"></script>
+ </body>
+</html>
